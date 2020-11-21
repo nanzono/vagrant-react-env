@@ -14,8 +14,8 @@ Vagrant.configure("2") do |config|
   git clone git://github.com/creationix/nvm.git nvm
   source /usr/local/nvm/nvm.sh
   echo 'source /usr/local/nvm/nvm.sh' >> /etc/profile.d/nvm.sh
-  nvm install v11.10.1
-  nvm use v11.10.1
+  nvm install v12.0.0
+  nvm use v12.0.0
   npm install -g npx
   npm install -g create-react-app
   EOT
